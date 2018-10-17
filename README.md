@@ -56,30 +56,30 @@ happens.
 
 | Line                | Expected Result | Actual Result | Were you right? Why? |
 | ------------------- | --------------- | ------------- | -------------------- |
-| `2 + 2`             |                 |               |                      |
-| `5 - 3`             |                 |               |                      |
-| `3 * 6`             |                 |               |                      |
-| `10 / 2`            |                 |               |                      |
-| `5 / 2`             |                 |               |                      |
-| `5.0 / 2`           |                 |               |                      |
-| `“hello” + “world”` |                 |               |                      |
-| `“Hello” - “world”` |                 |               |                      |
-| `3 + “3”`           |                 |               |                      |
-| `typeof “hello”`    |                 |               |                      |
-| `typeof 13`         |                 |               |                      |
-| `typeof true`       |                 |               |                      |
-| `typeof 3 + 5`      |                 |               |                      |
-| `typeof (3 + 5)`    |                 |               |                      |
-| `typeof (3 + “3”)`  |                 |               |                      |
-| `3 == 3`            |                 |               |                      |
-| `3 == 2`            |                 |               |                      |
-| `typeof (3 == 3)`   |                 |               |                      |
-| `3 != 3`            |                 |               |                      |
-| `3 != 2`            |                 |               |                      |
-| `3 == 1 + 2`        |                 |               |                      |
-| `3 == 2 + 2`        |                 |               |                      |
-| `3 < 2 + 2`         |                 |               |                      |
-| `3 > 2 + 2`         |                 |               |                      |
+| `2 + 2`             |       4          |   4         |    Correct as it is just adding the numbers                  |
+| `5 - 3`             |      2           |      2      |    Correct                  |
+| `3 * 6`             |      18          |      18     |         Correct                   |
+| `10 / 2`            |      5           |      5      |    Correct                  |
+| `5 / 2`             |      2.5         |      2.5    |      Correct                     |
+| `5.0 / 2`           |      2.5           |    2.5    |   Correct                   |
+| `“hello” + “world”` |      "helloworld"              |     "helloworld"          |    Correct as it is combining the words together                  |
+| `“Hello” - “world”` |         NaN   |   NaN          |  NaN Stands for not a number so subttracting two words will give this result           |
+| `3 + “3”`           |        33         |     33     | speech marks make the number 3 become a string so it is just combined with the number 3      |
+| `typeof “hello”`    |      "string"   | "string"     |  typeof operator will find the type of a JavaScript variable                    |
+| `typeof 13`         |      "number"  |"number"       |                      |
+| `typeof true`       |     "boolean"  |"boolean"      |                      |
+| `typeof 3 + 5`      |    "number"    |"number"       |                      |
+| `typeof (3 + 5)`    |    "number"    |"number"       |                      |
+| `typeof (3 + “3”)`  |    "string"    |"string"       |                      |
+| `3 == 3`            |     true       |  true         |                      |
+| `3 == 2`            |     false      |  false        |                      |
+| `typeof (3 == 3)`   |     "boolean"  | "boolean"     |                      |
+| `3 != 3`            |     false      | false         |    the operator is stating that 3 is not 3 which is false                  |
+| `3 != 2`            |     true       | true           |                      |
+| `3 == 1 + 2`        |    true        | true           |                      |
+| `3 == 2 + 2`        |    false       |   false        |                      |
+| `3 < 2 + 2`         |    true        |   true            |                      |
+| `3 > 2 + 2`         |    false       |  false             |                      |
 
 ## Task 2
 
