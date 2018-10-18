@@ -120,9 +120,13 @@ rect(position, 0, 10, 10)
 Run the sketch, and make notes below each of these questions:
 
 1. What happens?
+the position of the rectangle on the X axis moves
 2. Why?
+The position variable controls how many pixels the rectangle moves on the X axis
 3. What happens if you change 1 to a larger or smaller number?
+nothing changes
 4. Why?
+
 5. What about a negative number?
 
 Add this line at the bottom of `draw`:
@@ -133,6 +137,7 @@ console.log('The position is ' + position)
 
 Open up the browser console again (right click -> inspect element -> console)
 and see what happens. **Why?**
+The console is telling me that the position of the rectangle is 100 on the X axis. This is because the console log variable tells the user what is to be shown within the console
 
 Add this line at the top of your program. Add your name!
 
@@ -146,9 +151,8 @@ Add this line to `draw`:
 text('My name is' + name, 10, 30)
 ```
 
-**What happens and why? Why isn’t there a space between the word ‘name’ and your
-name? Can you add one?**
-
+**What happens and why? Why isn’t there a space between the word ‘name’ and your name? Can you add one?**
+Inside the canvas the sentence "my name is miles alford" has appeared this is because we have added a string to the canvas. there wasnt a space between the word 'name' as the string didnt have a space within the quotation marks.
 Add this line to the top of your sketch:
 
 ```js
